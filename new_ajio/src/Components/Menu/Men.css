@@ -1,0 +1,4 @@
+.itemCardImage {
+  height: 100px !important;
+  object-fit: scale-down;
+}

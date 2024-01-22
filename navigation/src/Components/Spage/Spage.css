@@ -1,0 +1,44 @@
+/* MyPage.css */
+
+.sec-page {
+  background-color: white;
+  
+  font: Roboto;
+  font-size: 30px;
+  height: 513px;
+  padding-left: 50px;
+  align-items: center;
+}
+.primary-heading {
+  font: Roboto;
+  margin-bottom: 2rem;
+  color: #666666;
+  font-size: 20px;
+}
+.button_class {
+  cursor: pointer;
+}
+.header-container {
+  display: flex;
+  width: 50vw;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-left: 4rem;
+}
+
+.header-container h1 {
+  margin-right: 10px; /* Adjust the margin as needed for spacing between h1 elements */
+}
+
+.sample2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 8rem;
+  width: 50vw;
+}
+@media screen and (min-width:952px){
+  .sec-page{
+    display:flex;
+  }
+}
